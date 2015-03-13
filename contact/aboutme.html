@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title>Aboutme</title>
+  <script type="text/javascript" charset="utf-8">
+      if ('content' in document.createElement('template')) {
+          console.log("Templates are supported.");
+      } else {
+          console.log("Templates are not supported.");
+      }
+  </script>
+
+</head>
+
+<body>
+  <button onclick="useIt()">Use me</button>
+  <div id="container"></div>
+  <script type="text/javascript" charset="utf-8">
+      function useIt() {
+        var content = document.querySelector('template').content;
+        // Update something in the template DOM.
+        var span = content.querySelector('span');
+        span.textContent = parseInt(span.textContent) + 1;
+        document.querySelector('#container').appendChild(
+          document.importNode(content, true));
+      }
+  </script>
+
+  <template>
+      <div>
+          Template used: <span>0</span>
+      </div>
+      <script type="text/javascript" charset="utf-8">
+          alert("Thanks!");
+      </script>
+  </template>
+</body>

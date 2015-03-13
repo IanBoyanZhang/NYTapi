@@ -1,10 +1,10 @@
 /* General */
 /*nav.desktop ul { float: right; position: relative; top: 20px; font-weight: bold; list-style: none; }*/
 /*nav.desktop ul { float: right; position: relative; top: 20px; font-weight: bold; list-style: none; }*/
-nav.desktop ul { float: right; padding-top: 10px; margin-right: 20px; font-weight: bold; list-style: none; }*/
+nav.desktop ul { float: right; padding-top: 20px; margin-right: 20px; font-weight: bold; list-style: none; }
 nav.desktop ul li { float: left; padding-top: 10px; margin-left: 20px; border-bottom: 1px dotted #DDD; }
 nav.desktop ul .active { color: #777; }
-.light-weight { font-weight: 300 !important; }
+.light-weight { font-weight: 300 !important; padding-top:20px; }
 .container-master { padding: 2rem; margin-bottom: 2rem; }
 footer { color: #BBB; text-align: center; font-size: 12px; margin: 20px auto;}
 footer p { margin: 0px auto ; padding: 222px auto; }
