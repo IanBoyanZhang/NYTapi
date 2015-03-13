@@ -22,7 +22,12 @@ pre code { display: block; padding: 1em; line-height: 1.25em; margin-top: 0.85em
 .checkout { display: block; margin-top: 0.5em; }
 
 /* Showcase */
+/* div.row.showcase { margin-bottom: 3em; } */
 div.row.showcase { margin-bottom: 3em; }
+/*div.row.text-center {padding-bottom: 20px; position: relative;  float: bottom;}*/
+div.row {padding-bottom: 20px; position: relative;  float: bottom;}
+/* div.row.large-4.columns {padding-bottom: -15px; position: relative; float: bottom;} */
+
 div.showcase .img { border-radius: 5px; height: 125px; background-size: cover; background-position: center top; background-repeat: no-repeat; border: 1px solid #DDD;}
 dl { margin-bottom: 20px; }
 dt { font-weight: bold; margin: 6px 0; font-size: 1.3em; }
@@ -56,5 +61,3 @@ dd { margin-left: 10px; }
 .pagectrl a { font-weight: bold; }
 .content .img { text-align: center; margin-bottom: 17px; }
 .content .img p { font-size: 12px; padding: 0; margin: 5px 0 0 0; }
-
-
