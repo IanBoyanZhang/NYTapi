@@ -17,7 +17,8 @@ code { background-color: transparent; font-weight: normal; }
 pre code { display: block; padding: 1em; line-height: 1.25em; margin-top: 0.85em; margin-bottom: 0.85em; }
 
 /* homepage */
-.welcomebox { padding: 2rem; margin-bottom: 2rem; }
+/*.welcomebox { padding: 2rem; margin-bottom: 2rem; } */
+.welcomebox { padding: 6rem; margin-bottom: 2rem;}
 .welcomebox h1 { font-size: 1.7em; }
 .checkout { display: block; margin-top: 0.5em; }
 
@@ -33,6 +34,32 @@ dl { margin-bottom: 20px; }
 dt { font-weight: bold; margin: 6px 0; font-size: 1.3em; }
 dd { margin-left: 10px; }
 .showlink { font-weight: bold; text-align: center; }
+
+/* NYT reader */
+.search {
+  border: 2px;
+  solid: #dadada;
+  border-radius:7px;
+  padding: 9px;
+  font-size: 18px;
+  -webkit-box-shadow: 5px 5px 5px #888;
+  background: #FBFBFB;
+/*  font-family: 'Oswald', sans-serif; */
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 300;
+}
+
+.search-border:focus {
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 20px #9ecade;
+}
+
+
+
+#response {
+  float: right;
+}
 
 @media only screen and (min-width: 768px) {
   div.showlink { text-align: right; }
