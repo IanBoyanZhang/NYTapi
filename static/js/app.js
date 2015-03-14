@@ -31,7 +31,6 @@ $(document).ready(function(){
       $('#info').append(result.response.docs[2].headline.main + '<br/>');
       console.log(result.response.docs[2].web_url);
 
-
      }).fail(function(){
       console.log("error");
       $('.results').html('This feature is not working.');
