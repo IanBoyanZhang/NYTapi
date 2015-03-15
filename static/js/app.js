@@ -47,8 +47,7 @@ $(document).ready(function(){
       var result = $.ajax({ // ajax call starts
         type:'GET',
         url:NYTuri + "?q=" + searchText + "&page=0"
-            + searchBeginDate + searchBeginDate + "&api-key=" + APIkey,
- //       url:"http://api.nytimes.com/svc/search/v2/articlesearch.json?q=New York Times&page=0&begin_date20150101&api-key=1f2c2c3a299f6ba19c89f8ec7ebb5b96:2:71564068",
+            + searchBeginDate + searchEndDate + "&api-key=" + APIkey,
         data: searchText,
         dataType:'json'
       })
