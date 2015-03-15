@@ -46,18 +46,24 @@
 		  <div class="panel welcomebox">
 
         <div class="search">
-           <em>Search Keywords:</em> <input type="text" name="text box" value=""  placeholder="New York Times" />
-           <em>Starting Date:</em> <input type="text" name="text box" value=""  placeholder="01/01/2015" />
-           <em>End Date:</em> <input type="text" name="text box" value=""  placeholder="01/01/2015" />
+           <em>Search Keywords:</em> <input type="text" name="text box" value="New York Times" placeholder="New York Times" id="searchText" />
+           <em>Begin Date:</em> <input type="date" name="date box" value="2015-01-01"  placeholder="01/01/2015" id="beginDate"/>
+           <em>End Date:</em> <input type="date" name="date box" value="2015-01-01"  placeholder="01/01/2015" id="endDate"/>
+
         </div>
         <div>
           <p></p>
         </div>
-        <div>
-          <pre id="response">
-            <button value="All" type="submit" id="submit-button">Get All Info!</button>
-          </pre>  
+        
+        <div id="info">
+          
         </div>
+        <pre id="response">
+          <!-- <pre id="response"> -->
+            <button value="All" type="submit" id="submit-button" class="button secondary">SUBMIT</button>
+          <!-- </pre>   -->
+        </pre>
+
   	</div>
   </div>
 
